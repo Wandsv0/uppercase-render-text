@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { Text } from './components/text.js'
+import { Button } from './components/button.js'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Text color='blue' value='existem 2 Kayn, um vermelho e um azul...'/>
+    
+    
+      <Button label='O vermelho você builda bruiser e o azul você builda assassino'/>
+    
+    </>
   );
 }
 
